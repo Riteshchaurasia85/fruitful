@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Awwwards | Project 05</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <nav class="d-flex align-items-center justify-content-between">
+           <div class="logo d-flex align-items-center justify-content-center">
+            <svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 163 33" fill="green" class="logo-path__wrap"><path d="M54.8056 31.4143H59.457V14.5929H63.1685V10.5484H59.457V9.32616C59.457 5.53089 60.6781 4.30065 63.9478 4.30065H65.3376V0.135498H63.7469C58.2359 0.135498 54.8136 3.44028 54.8136 9.89706V10.5484H51.793V14.5929H54.8136V31.4143H54.8056Z" fill="green" class="logo-path"></path><path d="M65.0483 31.4143H69.6998V19.6506C69.6998 16.3056 70.9209 14.8743 74.1504 14.8743H75.2911V10.5483H73.6202C68.1493 10.5483 65.0483 13.9818 65.0483 19.0797V31.4143Z" fill="green" class="logo-path"></path><path d="M86.466 31.8646C92.0975 31.8646 95.078 28.9216 95.078 23.1644V10.5483H90.4265V23.4137C90.4265 26.437 89.2054 27.8683 86.466 27.8683C83.7265 27.8683 82.5054 26.437 82.5054 23.4137V10.5483H77.854V23.1644C77.854 28.9216 80.8345 31.8646 86.466 31.8646Z" fill="green" class="logo-path"></path><path d="M103.36 10.5483H98.709V31.4143H103.36V10.5483Z" fill="green" class="logo-path"></path><path d="M101.039 7.52501C102.548 7.52501 103.77 6.30101 103.77 4.79113C103.77 3.28125 102.548 2.05725 101.039 2.05725C99.5305 2.05725 98.3076 3.28125 98.3076 4.79113C98.3076 6.30101 99.5305 7.52501 101.039 7.52501Z" fill="green" class="logo-path"></path><path d="M116.945 31.4143H118.005V27.2491H117.764C114.583 27.2491 113.483 25.8581 113.483 22.4327V14.5929H116.664V10.5483H113.483V4.09961H108.831V10.5483H105.811V14.5929H108.831V22.883C108.831 28.5196 111.932 31.4143 116.953 31.4143H116.945Z" fill="green" class="logo-path"></path><path d="M122.006 31.4143H126.658V14.5929H130.369V10.5484H126.658V9.32616C126.658 5.53089 127.879 4.30065 131.148 4.30065H132.538V0.135498H130.948C125.437 0.135498 122.014 3.44028 122.014 9.89706V10.5484H118.994V14.5929H122.014V31.4143H122.006Z" fill="green" class="logo-path"></path><path d="M141.432 31.8646C147.063 31.8646 150.044 28.9216 150.044 23.1644V10.5483H145.392V23.4137C145.392 26.437 144.171 27.8683 141.432 27.8683C138.692 27.8683 137.471 26.437 137.471 23.4137V10.5483H132.82V23.1644C132.82 28.9216 135.8 31.8646 141.432 31.8646Z" fill="green" class="logo-path"></path><path d="M161.58 31.4142H162.64V27.2491H162.399C159.258 27.2491 158.117 26.0269 158.117 22.7543V2.20996H153.466V22.7543C153.466 28.5115 156.567 31.4142 161.588 31.4142H161.58Z" fill="green" class="logo-path"></path><path d="M18.3873 32.1088C8.63191 30.8085 1.09222 22.4957 1.00488 12.4008C10.7635 13.701 18.3032 22.017 18.3873 32.1088Z" fill="green"></path><path d="M21.0654 32.1088C30.8208 30.8085 38.3637 22.4957 38.4478 12.4008C28.6892 13.701 21.1495 22.017 21.0654 32.1088Z" fill="green"></path><path d="M19.7295 13.7237C16.0486 13.7237 13.0566 10.7286 13.0566 7.05089C13.0566 3.37323 16.0486 0.378052 19.7295 0.378052C23.4104 0.378052 26.4023 3.37323 26.4023 7.05089C26.4023 10.7286 23.4071 13.7237 19.7295 13.7237ZM19.7295 3.0239C17.5106 3.0239 15.7025 4.82877 15.7025 7.05089C15.7025 9.27302 17.5074 11.0779 19.7295 11.0779C21.9516 11.0779 23.7565 9.27302 23.7565 7.05089C23.7565 4.82877 21.9516 3.0239 19.7295 3.0239Z" fill="green"></path></svg>
+
+           </div>
+           <div class="cntr-menu d-flex align-items-center justify-content-center">
+            <ul type="none"  class="d-flex gap-4 align-items-center">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Dropdown
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                  </li>
+
+            </ul>
+           
+           </div>
+            
+           <div class="rght-nav gap-4  d-flex align-items-center justify-content-center">
+            <a class="nav-link" href="#">login</a>
+            <button type="button" class="btn btn-success">Get started</button>
+           </div>
+        </nav>
+        <div class="section-1">
+            <div class="hero-text">
+                <h1>Finances figured out for you</h1>
+            <p>Get 1-on-1 advice from a friendly expert and a single plateform to handle all your finances</p>
+            <button type="button" class="btn btn-success btn-lg">Get Started</button>
+            </div>
+            <div class="overlay-main">
+                <img id="orange" src="./Assects/6658365416b1a17d4b551283_Orange_Tree 2.webp" alt="">
+            <img id="leaf" src="./Assects/66583654a49c400d4d10dd58_Fern 2-p-500.webp" alt="">
+            </div>
+            
+        </div>
+        <div class="section-2 d-flex align-items-center justify-content-center">
+            <h2>  Work with a Fruitful Guide<span> <div class="img-h2-1">
+                <img src="./Assects/65cf6a945a595dae75f4cd2a_guide_headshot_colin_FEE9D1-p-500.png" alt="">
+            </div> </span>who<br>
+                understands you. Get organized, optimized, <br>
+                and on  <span> <div class="img-h2-1 img-h2-2">
+                    <img  src="Assects/65b2236e38cc1d710693c797_Spending.png" alt="">
+                </div> </span>track to hit your goals in no time.</h2>
+
+        </div>
+        <div class="section-3 d-flex align-items-center justify-content-center">
+            <h3>A partner and a platform that <br>
+                make money simple.</h3>
+                <p>Take control of your finances with expert human <br> help and a single intuitive place to track it all</p>
+        </div>
+        <div class="section-4 d-flex align-items-center justify-content-center">
+            <div class="section-4-img">
+                <div class="overlay-section-4">
+                    <h3>Your partnar <br> in a prograss </h3>
+                <p>Talk about,track,save and invest your money all in one place. know where you are and love where you are going</p>
+                
+                </div>
+                
+            </div>
+            <div class="section-4-img">
+                <div class="overlay-section-4">
+                     <h3>Your placed for Peace of mind</h3>
+                    <p>Talk about,track,save and invest your money all in one place. know where you are and love where you are going</p>
+
+                    </div>
+                
+            </div>
+            
+
+        </div>
+        <div class="section-5">
+            <h2>Guides that help you grow</h2>
+            <p>Talk to someone who understands you and your money. Make progress and feel empowered.</p>
+            <div class="cta-section-5">
+                <button type="button" class="btn btn-dark">How it works</button>
+                <button type="button" class="btn btn-dark">Who are guide</button>
+            </div>
+            <div class="card-section-5">
+                <div class="card"></div>
+                <div class="card"></div>
+                <div class="card"></div>
+                <div class="card"></div>
+                <div class="card"></div>
+                
+            </div>
+            <div class="cta-section-5-btn-2 d-flex align-items-center justify-content-center">
+                <button type="button" class="btn btn-dark">Choose your guide</button>
+
+                </div> 
+           
+        </div>
+        <div class="section-6 d-flex align-items-center justify-content-center">   
+            <h1>Membership
+                Benefits</h1>
+             <p>Get expert advice and access to smarter, simpler ways to save and invest all in one place.</p>   
+             
+                <div class="card-section-6">
+                    <div class="lft-card-section-6">
+                    
+                        <h3>Talk to a human. An expert. A Fruitful Guide.</h3>
+                        <ul>
+                            <li>Dedicated advice and support on all aspects of your finances from a Fruitful Guide.</li>
+                            <li>1-to-1 video sessions focused on organizing  your finances, building wealth, and making  real progress.</li>
+                            <li>Ongoing progress check-ins, quick syncs and anytime messaging.</li>
+                            <li>A clear blueprint to hit your goals with simple steps that your Guide helps you implement.</li>
+                        </ul>
+                        <button type="button" class="btn btn-success">Tell me more</button>
+                    </div>
+                    <div class="rght-card-section-6">
+                        <div data-tilt class="img-container-6">
+                        <img width="100%" src=".//Assects/65cf93712db11ffcec514942_Durriya headshot-p-500.webp" alt="">
+    
+                        </div>
+                    </div>
+                 </div>
+                 <div class="card-section-6">
+                    <div class="lft-card-section-6">
+                    
+                        <h3>Talk to a human. An expert. A Fruitful Guide.</h3>
+                        <ul>
+                            <li>Dedicated advice and support on all aspects of your finances from a Fruitful Guide.</li>
+                            <li>1-to-1 video sessions focused on organizing  your finances, building wealth, and making  real progress.</li>
+                            <li>Ongoing progress check-ins, quick syncs and anytime messaging.</li>
+                            <li>A clear blueprint to hit your goals with simple steps that your Guide helps you implement.</li>
+                        </ul>
+                        <button type="button" class="btn btn-success">Tell me more</button>
+                    </div>
+                    <div class="rght-card-section-6">
+                        <div data-tilt class="img-container-6">
+                        <img width="100%" src=".//Assects/65cf93712db11ffcec514942_Durriya headshot-p-500.webp" alt="">
+    
+                        </div>
+                    </div>
+                 </div>
+                 <div class="card-section-6">
+                    <div class="lft-card-section-6">
+                    
+                        <h3>Talk to a human. An expert. A Fruitful Guide.</h3>
+                        <ul>
+                            <li>Dedicated advice and support on all aspects of your finances from a Fruitful Guide.</li>
+                            <li>1-to-1 video sessions focused on organizing  your finances, building wealth, and making  real progress.</li>
+                            <li>Ongoing progress check-ins, quick syncs and anytime messaging.</li>
+                            <li>A clear blueprint to hit your goals with simple steps that your Guide helps you implement.</li>
+                        </ul>
+                        <button type="button" class="btn btn-success">Tell me more</button>
+                    </div>
+                    <div class="rght-card-section-6">
+                        <div data-tilt class="img-container-6">
+                        <img width="100%" src=".//Assects/65cf93712db11ffcec514942_Durriya headshot-p-500.webp" alt="">
+    
+                        </div>
+                    </div>
+                 </div>
+             
+             
+        </div>
+        <div class="section-7">
+            <h1>   “More than just feeling less <br>
+                stressed about my finances, I feel a <br>
+                lot more in control of my life!”</h1>
+                <div class="img-container-2">
+                <img width="100%" src=".//Assects/65e7e498ffa29a1be782ad99_maya_nav-p-500.jpg" alt="">
+                </div>
+                <h5>Maya</h5>
+                 <h4>Real Fruitful Member</h4>
+        </div>
+        <div class="section-8">
+            <h2>Our members <br> make moves</h2>
+            <p>Hear inspiring stories from real members 
+                making real progress.</p>
+            
+            <div class="card-section-8">
+                <div class="card"></div>
+                <div class="card"></div>
+                <div class="card"></div>
+                <div class="card"></div>
+                <div class="card"></div>
+               
+           </div>
+           <div class="paragraph-1">
+            <p>The people in these videos are real Fruitful Members who were paid in cash for their time and participation in this series. We think that is fair.¹ⓘ
+        </p></div>
+        </div>
+        <div class="section-9">
+            <div class="part-1">
+                <h4>Fruitful Membership</h4>
+                <p>Membership is risk-free for 30 daysⓘ</p>
+                <div class="btn">
+                    <button >solo</button>
+                    <button >joint</button>
+                </div>
+                
+            </div>
+            <div class="part-2">
+                <div class="card-section-9">
+                    <div class="card">
+                        <div class="crd-1">
+                            <h4>Monthly</h4>
+                            <p><Sup>$</Sup>98 <sub>per month</sub> </p>
+                            <br>
+                             <br>
+                            <h6>$98 paid every month</h6>
+                           </div>
+                           
+                         </div>
+                 
+                    <div class="card-2">
+                        <div class="crd-1">
+                            <h4>Quartly</h4>
+                            <p><Sup>$</Sup>92 <sub>per month</sub> </p>
+                            <br>
+                             <br>
+                            <h6>$98 paid every month</h6>
+                           </div>
+                    </div>
+                    <div class="card">
+                        <div class="crd-1"><h4>Annually</h4>
+                            <p><Sup>$</Sup>83 <sub>per month</sub> </p>
+                            <br>
+                             <br>
+                            <h6 font-size="1rem">$998 paid every month</h6></div>
+                    
+                       </div>
+                       
+                    </div>
+                   
+               </div>
+            
+            <div class="part-3">
+                <h5>All plans provide access to</h5>
+                <p>1.Expert advice and support from your <br> dedicated Guide, a CFP® Professional</p>
+
+                 <p>2.5.00% APY High Yield Savings Account, <br> more than 10x the national average*</p>
+                    
+                    <p>3. 1-to-1 video sessions focused on hitting <br> your goals with progress check-ins, quick <br> syncs and anytime messaging</p>
+                    
+                  <p>4.Tailored investment portfolios with expert <br> support at every step and no management fees</p>
+            </div>
+        </div>
+        <div class="section-10">
+            <div class="prt-1">
+                <div class="box-1"></div>
+                <div class="box-1"></div>
+                <div class="box-1"></div>
+            </div>
+            <div class="prt-2">
+                <h1>Your goals <br>
+                    are ours too</h1>
+                    <p>We’ll guide and support you though all <br>money moments and milestones.</p>
+                    <button>learn more</button>
+            </div>
+            <div class="prt-3">
+                <div class="box-2"></div>
+                <div class="box-2"></div>
+                <div class="box-2"></div>
+            </div>
+            
+        </div>
+        <div class="section-11 d-flex align-items-center justify-content-center">
+           <div class="accordion d-grid gap-3" id="accordionExample">
+                      <div class="accordion-item">
+                       <h2 class="accordion-header">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        What is Fruitful?
+                     </button>
+                  </h2> 
+                    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                     <div class="accordion-body">
+        <strong>Fruitful is a financial wellness membership that provides access to.</strong> 1. Expert advice and support from a dedicated Fruitful Guide, who is a CERTIFIED FINANCIAL PLANNER™ Professional that helps with all aspects of your. <br>
+
+        2. A 5.00% APY High Yield Savings Account, more than 10x national average* <br>
+        
+        3. Tailored investment portfolios with expert support at every step and no management fees. <br>
+        
+        The combo of these 3 core benefits allows our members to organize and optimize their finances in a way that’s simple, smart, stress-free, and sustainable. Members can improve their finances, make real progress toward goals, and eliminate stress. That sounds nice! <br>
+        
+        *Rates according to FDIC Monthly Rate Cap Information as of February 16, 2024. 
+        
+        
+      </div>
+    </div>
+                          </div>
+                       <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+        Why is it good?
+      </button>
+    </h2>
+    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+         Thinking about money can be stressful and confusing. It’s all too common to have looming anxiety about your finances, feel overwhelmed, or be unsure about how to make progress toward your goals. Our all-encompassing membership makes managing your money easy, effective, and empowering. That means providing a real expert human to support and advise you at every turn. That means creating a blueprint with easy-to-implement steps. That means simpler, smarter ways to save and invest that support your personal goals. And that means doing it all at a transparent, more affordable cost.
+    </div>
+                        </div>
+                       
+                      </div>
+                      <div class="accordion-item">
+                        <h2 class="accordion-header">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Do I need to be a Fruitful Member to access all member benefits?
+                          </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                          <div class="accordion-body">
+                            Yes, an active Fruitful Membership is required to work with a Fruitful Guide as well as open and maintain a high yield savings account and investment management account(s). Handling your finances should be simple and seamless, so our membership provides complementary services and tools that help members unlock real progress at a great value. Also, there are no additional fees or costs beyond your subscription.
+
+
+                        </div>
+                                            </div>
+                        
+                      </div>
+                      <div class="accordion-item">
+                        <h2 class="accordion-header">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            What credentials do Fruitful Guides have?
+                          </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                          <div class="accordion-body">
+                            All Fruitful Guides are CERTIFIED FINANCIAL PLANNER™ Professionals, the highest level of credibility in personal finance. This means all Guides have met intensive education, training and ethical standards, are equipped to help Members with all aspects of their finances in a capable and trustworthy way, and are required to act as fiduciaries for Members. Guides are additionally registered as investment adviser representatives with Fruitful, an SEC-registered investment adviser.
+
+
+
+
+                        </div>
+                                            </div>
+                        
+                      
+                      </div>
+                      <div class="accordion-item">
+                        <h2 class="accordion-header">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            What can Fruitful Guides help me with?
+                          </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                          <div class="accordion-body">
+                            Any part of your life that involves money. Our Guides provide support and advice on each aspect of members' financial worlds while considering all aspects - from managing monthly finances and getting organized to saving and investing, from buying a home to negotiating compensation and choosing benefits, from strategizing around taxes to starting a family and combining finances, and from retirement to insurance and legacy planning.
+
+                        </div>
+                    </div>
+                        
+                      
+                      </div>
+                      <div class="accordion-item">
+                        <h2 class="accordion-header">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Can I change my Fruitful Guide?
+                          </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                          <div class="accordion-body">
+                            Yes, you can change your Fruitful Guide at any time, for any reason. We’re committed to your success, and we'll make sure we find the right Guide for you.
+
+
+                        </div>
+                    </div>
+                        
+                      
+                      </div>
+                      <div class="accordion-item">
+                        <h2 class="accordion-header">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            How much does Fruitful cost?
+                          </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                          <div class="accordion-body">
+                            Our pricing is simple and transparent — $92 per month with a quarterly membership and discounts at longer durations. That’s less than half of the cost of traditional advisory firms.² Fruitful members also get access to unique benefits like 5.00% APY on savings and tailored investment portfolios with no management fees and no minimums. We never try to sell financial products to members and our pricing doesn’t change based on your financial profile or complexity. There are no setup or onboarding fees to become a member.
+
+‍
+
+‍2Cost of traditional advisory firms sourced from The Kitces Report, Volume 2, 2022, Figure 61. Distribution Of Typical Annual Retainer Fee.
+
+
+
+                        </div>
+                    </div>
+                        
+                      
+                      </div>
+                      <div class="accordion-item">
+                        <h2 class="accordion-header">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            How does that compare to the cost at other financial companies?
+                          </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                          <div class="accordion-body">
+                            On average, financial planning services cost $250 an hour or about $3,000 per year. Investment managers typically charge 1% on assets managed at a minimum of $250,000.²
+
+                            ‍
+                            
+                            ‍2Cost of traditional advisory firms sourced from The Kitces Report, Volume 2, 2022, Figure 61. Distribution Of Typical Annual Retainer Fee.
+                            
+                            
+
+                        </div>
+                    </div>
+                        
+                      
+                      </div>
+                      <div class="accordion-item">
+                        <h2 class="accordion-header">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Why can I trust Fruitful with my money?
+                          </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                          <div class="accordion-body">
+                            Fruitful is an investment adviser registered with the U.S. Securities & Exchange Commission (“SEC”) that employs full-time Financial Guides, all of whom are investment adviser representatives registered with the SEC and CERTIFIED FINANCIAL PLANNER™ Professionals. Our Financial Guides have previously worked at top advisory firms like Morgan Stanley, Fidelity, and Merrill Lynch.
+
+‍
+
+Investments in members' accounts are held at and cleared by APEX Clearing Corporation, member FINRA/SIPC, who custodies over $120 billion in total assets as of June 2023. High Yield Savings Accounts and deposits are held at Emigrant Bank, Member FDIC and founded in 1850. Learn more about Fruitful in our Legal Documents.
+                        </div>
+                    </div>
+                        
+                      
+                      </div>
+                      <div class="accordion-item">
+                        <h2 class="accordion-header">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            How do I start?
+                          </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                          <div class="accordion-body">
+                            Choose your Guide, sign-up to become a Fruitful Member (try it risk-free for 30 days), and schedule your 1st session. Tell us about you. Hear about us. Your financial wellness journey just started.
+
+                        </div>
+                    </div>
+                        
+                      
+                      </div>
+                      <div class="accordion-item">
+                        <h2 class="accordion-header">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            What if I’m not sure Fruitful is the right fit for me?
+                          </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                          <div class="accordion-body">
+                            Good news - your Fruitful membership is risk-free for the first 30 days. We’re confident you’ll feel better and do better in no time. But if you decide it’s not a great a fit for you, you can cancel your membership in the first month and get a full refund—guaranteed.
+                        </div>
+                    </div>
+                        
+                      
+                      </div>
+                      <div class="accordion-item">
+                        <h2 class="accordion-header">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            As a member, how can I reach support?
+                          </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                          <div class="accordion-body">
+                            Our hospitality team provides phone and email support Monday through Friday 8 AM – 6 PM ET and 8 AM – 9 PM ET respectively. The team responds to emails within 24 hours, but usually much quicker. Members can also schedule unlimited phone or video sessions as well as message anytime with their dedicated Fruitful Guide.
+                        </div>
+                    </div>
+                        
+                      
+                      </div>
+                  </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tilt.js/1.2.1/tilt.jquery.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
